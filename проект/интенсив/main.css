@@ -1,0 +1,31 @@
+body  {
+     background-color: #000FFF;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 400px;
+  width:  100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+p {
+   font-size: 22px;
+   font-family: fantasy;  
+   line-height: 1.65; 
+   /* гибкая сетка*/
+   display: flex;
+}
+
+div {
+	width: 70%;
+	margin: auto;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+	padding: 50px;
+}
